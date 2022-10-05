@@ -1,0 +1,23 @@
+{
+    "User": {
+        "id":{
+            "int": {"min": 1, "max": 10}
+        },
+        "fname": {
+            "string":{}
+        },
+        "lname": {
+            "string": {}
+        },
+        "age": {
+            "int": { "min":18, "max": 30}
+        },
+        "gender": {
+            "string":{}
+        },
+        "hight":{
+            "string": {}
+        }
+    
+    }
+}    
