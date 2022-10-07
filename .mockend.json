@@ -1,7 +1,7 @@
 {
     "User": {
         "id":{
-            "int": {"min": 1, "max": 10}
+            "int": {"min": 1, "max": 5}
         },
         "fname": {
             "string":{}
@@ -10,13 +10,13 @@
             "string": {}
         },
         "age": {
-            "int": { "min":18, "max": 30}
+            "int": { "min":18, "max": 25}
         },
         "gender": {
             "string":{}
         },
         "hight":{
-            "string": {}
+            "int": {"min": 100, "max": 200}
         }
     
     }
