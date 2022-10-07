@@ -1,23 +1,11 @@
 {
     "User": {
-        "id":{
-            "int": {"min": 1, "max": 5}
-        },
-        "fname": {
-            "string":{}
-        },
-        "lname": {
-            "string": {}
-        },
-        "age": {
-            "int": { "min":18, "max": 25}
-        },
-        "gender": {
-            "string":{}
-        },
-        "hight":{
-            "int": {"min": 100, "max": 200}
-        }
+        "id": 1,
+        "fname": "Yidnekachew",
+        "lname": "Bantrga",
+        "age": 22,
+        "gender": "M",
+        "hight": "177cm"
     
     }
 }    
