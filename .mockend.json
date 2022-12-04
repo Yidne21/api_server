@@ -1,44 +1,42 @@
 {
-  "Users": [
-    {
-      "firstname": "Abel",
-      "lastname": "Zeleke",
-      "age": "23",
-      "Gender": "M",
-      "height": "170cm",
-      "id": 1
-    },
-    {
-      "firstname": "Bisrat",
-      "lastname": "Jenbere",
-      "age": "23",
-      "Gender": "M",
-      "height": "179cm",
-      "id": 2
-    },
-    {
-      "firstname": "Zola",
-      "lastname": "Daniel",
-      "age": "23",
-      "Gender": "M",
-      "height": "170cm",
-      "id": 3
-    },
-    {
-      "firstname": "Tolossa",
-      "lastname": "Ganati",
-      "age": "23",
-      "Gender": "M",
-      "height": "180cm",
-      "id": 4
-    },
-    {
-      "firstname": "Betsegaw",
-      "lastname": "Abebe",
-      "age": "23",
-      "Gender": "M",
-      "height": "177cm",
-      "id": 5
+    "User": {
+        "id":{
+            "int": {"min": 1, "max": 100}
+        },
+        "firstname": {
+            "string":[
+              "Abel",
+              "Betsegaw",
+              "Bisrat",
+              "MElkamu",
+              "Yidne"
+             ]
+        },
+        "lastname": {
+            "string": [
+              "Zeleke",
+              "Abebe",
+              "Jenbere",
+              "Abraraw",
+              "Bantrga"
+            ]
+        },
+        "age": {
+            "int": { "min":20, "max": 26}
+        },
+        "Gender": {
+            "string":["M",
+                      "F"]
+        },
+        "height":{
+            "string": [
+              "180cm",
+              "170cm",
+              "160cm",
+              "177cm",
+              "169cm
+              ]
+        }
+
     }
-  ]
 }
