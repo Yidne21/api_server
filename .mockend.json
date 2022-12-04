@@ -4,7 +4,7 @@
             "int": {"min": 1, "max": 100}
         },
         "firstname": {
-            "string":[
+            "string": [
               "Abel",
               "Betsegaw",
               "Bisrat",
@@ -25,10 +25,12 @@
             "int": { "min":20, "max": 26}
         },
         "Gender": {
-            "string":["M",
-                      "F"]
+            "string": [
+                "M",
+                "F"
+                ]
         },
-        "height":{
+        "height": {
             "string": [
               "180cm",
               "170cm",
@@ -37,6 +39,5 @@
               "169cm
               ]
         }
-
     }
 }
